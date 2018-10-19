@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LOGED">
+
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="165dp"
+        android:layout_height="148dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/holy" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="202dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="454dp"
+        android:text="@string/app_name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="328dp"
+        android:layout_height="84dp"
+        android:layout_alignStart="@+id/nameTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="284dp"
+        android:text="@string/app_name"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="253dp"
+        android:layout_height="85dp"
+        android:layout_alignEnd="@+id/emailTextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="67dp"
+        android:text="@string/app_name"
+        android:textSize="21sp" />
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="157dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/idTextView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="logOut"
+        android:text="log_out" />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toEndOf="@+id/nameTextView"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="revoke"
+        android:text="Next" />
+
+
+</RelativeLayout>

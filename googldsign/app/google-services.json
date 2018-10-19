@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1093276567836",
+    "firebase_url": "https://jolyhead-76607.firebaseio.com",
+    "project_id": "jolyhead-76607",
+    "storage_bucket": "jolyhead-76607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093276567836:android:7f105d999c9fda6b",
+        "android_client_info": {
+          "package_name": "com.jeff.umar.googldsign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093276567836-l7afsaoj7qc1ppv8qhcd6ijnd7kg51qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jeff.umar.googldsign",
+            "certificate_hash": "377cfeee6e46407d4a174b754413d4836e2ad613"
+          }
+        },
+        {
+          "client_id": "1093276567836-jcurrq723dgarijhl4tt1sb7ti40703m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1QKbPFqt2_9fv5ItNrmGLit8BO-KjSKY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093276567836-jcurrq723dgarijhl4tt1sb7ti40703m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
